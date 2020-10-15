@@ -21,6 +21,8 @@ Uses:
 - To analyse the effects on the trust value of a node when it turns malicious or dead. (Can detect a bad node within 1-2 iterations)
 - To classify the nodes into working, malicious and potentially malicious nodes.
 
+![](trend.png)
+![](model.png)
 [For TARP]
 
 
