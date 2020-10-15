@@ -1,7 +1,7 @@
 LINEAR REGRESSION TO PERFORM NODE ANALYSIS IN AN IOT SYSTEM
 
 Folder contains the following:
-- The main program which is the python file "Node_Analyser.py".
+- The main program which is the python file "main.py".
 - The database holding the trust values of all 5 parameters called "node_database.xlsx".
 - The database holding the list of working, malicious and potentially malicious nodes.
 - The screenshots folder containing images of graphs and tables which come as outputs of the program
@@ -20,6 +20,8 @@ Uses:
 - To predict the next trust factor of a particular node.
 - To analyse the effects on the trust value of a node when it turns malicious or dead. (Can detect a bad node within 1-2 iterations)
 - To classify the nodes into working, malicious and potentially malicious nodes.
+
+[For TARP]
 
 
 
