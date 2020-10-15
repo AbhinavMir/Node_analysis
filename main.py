@@ -345,6 +345,8 @@ if __name__ == "__main__":
     plt.ylabel('Trust Factor')
     plt.title('Model for Linear regression to predict Trust Factor') 
     plt.show()
+    plt.savefig('model.png')
+
 
     avail_av = 0
     integ_av = 0
@@ -464,7 +466,7 @@ if __name__ == "__main__":
     plt.title("Trust values' trends over no. of nodes")
     plt.legend()
     plt.show()
-    
+    plt.savefig('trend.png')
 
     mal_wb= openpyxl.load_workbook('malicious_node_data.xlsx')
     mal_sheet = mal_wb.get_sheet_by_name('mal')
